@@ -19,10 +19,10 @@ const Education = () => {
       university: "Udemy",
       degree: "JavaScript From Zero to Expert",
       duration: "December 2024 - Present",
-      description: "I have got udemy certification.",
+      description: "I have got Udemy certification.",
       details: [
         "The modern JavaScript course for everyone!",
-        "Master JavaScript with projects, challenges and theory. Many courses in one!.",
+        "Master JavaScript with projects, challenges and theory. Many courses in one!",
       ],
       logo: "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
       certification:
@@ -31,27 +31,33 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="bg-gray-900 text-white py-16">
-      <div className="max-w-6xl mx-auto px-6">
-        <h1 className="text-5xl font-bold text-yellow-300 text-center mb-10">
+    <section id="education" className="bg-[#111322] text-white py-16">
+      <div className="max-w-6xl mx-auto px-6 md:px-0">
+        <h1 className="text-4xl md:text-5xl font-bold text-yellow-300 text-center mb-10">
           Education
         </h1>
         {educationData.map((edu, index) => (
           <div
             key={index}
-            className="flex items-start gap-14 bg-gray-800 p-10 rounded-lg shadow-lg mb-5"
+            className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-14 bg-gray-800 p-6 md:p-10 rounded-lg shadow-lg mb-5"
           >
             <img
               src={edu.logo}
               alt={edu.university}
-              className="w-40 h-36 rounded-full"
+              className="w-24 h-24 md:w-40 md:h-36 rounded-full"
             />
-            <div>
-              <h2 className="text-2xl font-semibold">{edu.university}</h2>
+            <div className="text-center md:text-left">
+              <h2 className="text-2xl font-semibold mb-1">{edu.university}</h2>
               <p className="text-lg font-medium text-gray-300">{edu.degree}</p>
               <p className="text-sm text-gray-400">{edu.duration}</p>
               <p className="mt-2 hover:text-yellow-300 duration-300">
-                <a href={edu.certification}>{edu.description}</a>
+                <a
+                  href={edu.certification}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {edu.description}
+                </a>
               </p>
               <ul className="text-gray-400 text-sm list-disc pl-5 mt-2">
                 {edu.details.map((detail, i) => (

@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const Portfolio = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-[#111322] text-white">
       {/* Navbar */}
       <Router>
         <Navbar />
