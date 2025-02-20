@@ -14,7 +14,7 @@ const Proficiency = () => {
       <div className="mx-20 px-6 md:px-12 flex flex-col md:flex-row items-center ">
         {/* Left: Skills */}
         <div className="w-full md:w-3/5">
-          <h1 className="text-5xl md:text-4xl lg:text-5xl font-bold text-yellow-300 mb-8">
+          <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold text-yellow-300 mb-8">
             Proficiency
           </h1>
           {skills.map((skill, index) => (
