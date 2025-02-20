@@ -12,9 +12,10 @@ const Hero = () => {
       <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-[1400px]">
         {/* Phần nội dung bên trái */}
         <div className="w-full lg:w-[50%] text-center lg:text-left">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-yellow-300 leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold text-yellow-300 leading-tight">
             Hi all, I'm Toàn Phan 👋
           </h1>
+
           <p className="text-xl lg:text-2xl text-gray-400 mt-6 leading-relaxed">
             A passionate Full Stack Software Developer 🚀 with experience using
             React, Express, NestJS
