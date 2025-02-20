@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-[1400px]">
         {/* Phần nội dung bên trái */}
         <div className="w-full lg:w-[50%] text-center lg:text-left">
-          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl font-extrabold text-yellow-300 leading-tight">
+          <h1 className="text-lg sm:text-xl md:text-4xl lg:text-6xl font-extrabold text-yellow-300 leading-snug">
             Hi all, I'm Toàn Phan 👋
           </h1>
 
