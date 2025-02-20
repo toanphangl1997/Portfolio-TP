@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center px-6 sm:px-10 bg-[#111322] pt-20"
+      className="min-h-screen flex items-center justify-center px-6 sm:px-10 bg-[#111322] pt-24"
     >
       {/* Container chính */}
       <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-[1400px]">
