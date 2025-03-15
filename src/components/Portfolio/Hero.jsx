@@ -27,7 +27,15 @@ const Hero = () => {
               Contact Me
             </button>
             <button className="bg-purple-700 hover:bg-white hover:text-purple-700 text-white px-8 py-4 rounded-lg font-semibold text-lg duration-300">
-              Download My CV
+              <a
+                type="file"
+                href="/PhanChiToan-CV-ENG2.pdf"
+                // download="PhanChiToan-CV-ENG1.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Download My CV
+              </a>
             </button>
           </div>
         </div>
