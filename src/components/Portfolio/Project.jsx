@@ -1,7 +1,7 @@
 import React from "react";
 import imageProject1 from "../../image/Project_Airbnb.png";
-import imageProject2 from "../../image/Project_Disney.png";
 import imageProject3 from "../../image/Project_APi_Swagger_Nestjs.png";
+import imageProject2 from "../../image/Project_Demo_Ai_Interview.png";
 
 const projects = [
   {
@@ -12,9 +12,9 @@ const projects = [
   },
   {
     id: 2,
-    title: "Disney Clone With React",
+    title: "Demo Ai-Interview",
     image: imageProject2,
-    link: "https://fe-disney-clone.vercel.app/",
+    link: "https://gitlab.com/ai-agent-noob/ai-interview/-/tree/feature/front-end/frontend?ref_type=heads",
   },
   {
     id: 3,
