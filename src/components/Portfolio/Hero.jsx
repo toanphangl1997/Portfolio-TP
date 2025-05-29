@@ -29,7 +29,7 @@ const Hero = () => {
             <button className="bg-purple-700 hover:bg-white hover:text-purple-700 text-white px-8 py-4 rounded-lg font-semibold text-lg duration-300">
               <a
                 type="file"
-                href="/PhanChiToan-CV-ENG2.pdf"
+                href="/ToanPhan ( Full-Stack ).pdf"
                 // download="PhanChiToan-CV-ENG1.pdf"
                 rel="noopener noreferrer"
                 target="_blank"

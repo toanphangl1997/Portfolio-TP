@@ -67,7 +67,7 @@ const Education = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> 
     </section>
   );
 };
