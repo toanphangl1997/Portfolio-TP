@@ -1,10 +1,10 @@
-import React from "react";
 import {
   FaCss3Alt,
   FaDatabase,
   FaDocker,
   FaHtml5,
   FaJs,
+  FaLaravel,
   FaNodeJs,
   FaReact,
   FaSass,
@@ -37,6 +37,7 @@ const Skill = () => {
           <SiExpress className="text-4xl lg:text-5xl text-white" />
           <SiNestjs className="text-4xl lg:text-5xl text-red-500" />
           <SiPrisma className="text-4xl lg:text-5xl text-blue-500" />
+          <FaLaravel className="text-4xl lg:text-5xl text-red-500" />
           <FaDocker className="text-4xl lg:text-5xl text-blue-500" />
         </div>
 
